@@ -74,6 +74,48 @@ nav li a{
 }
 
 
+/* Team Style start now */
+
+
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.team-title{
+    width: 468px;
+}
+.quick-list{
+    color:#727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.feature{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+.team-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    width: 537px;
+}
+/* Team Style End now */
+
 
 /* respossivie mobile device */
 @media screen and (max-width: 576px) {
@@ -95,4 +137,10 @@ nav li a{
     nav{
         flex-direction: column;
     }
+}
+
+/* Main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
 }
