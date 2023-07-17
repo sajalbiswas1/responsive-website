@@ -14,10 +14,19 @@
     padding: 20px 25px;
     cursor: pointer;
     border: 0;
-
+}
+.section-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.primary-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-/* Headeer style */
+/* Header style */
 
 header{
     background-color: rgba(255, 144, 14, 0.10);
@@ -28,13 +37,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
-    color: #131313;
-text-align: center;
-font-size: 2.8rem;
-font-weight: 700;
 
-}
 nav > ul{
     display: flex;
 
@@ -108,12 +111,7 @@ nav li a{
     font-size: 45px;
     font-weight: 700;
 }
-.team-description{
-    color: #727272;
-    font-size: 16px;
-    font-weight: 400;
-    /* width: 537px; */
-}
+
 /* Team Style End now */
 
 /* Main style */
@@ -126,7 +124,6 @@ main{
 /* respossivie mobile device */
 @media screen and (max-width: 576px) {
     header{
-    
         padding: 20px;
     }
     nav{
@@ -142,7 +139,6 @@ main{
         padding-left: 20px;
         padding-right: 20px;
     }
-
 }
 
 
@@ -157,5 +153,4 @@ main{
     .team-container{
         flex-direction: column;
     }
-    
 }
